@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Web.Api.Models;
 
-public partial class DbAc5136DbveterinariaContext : DbContext
+public partial class DbAc5132DbveterinariaContext : DbContext
 {
-    public DbAc5136DbveterinariaContext()
+    public DbAc5132DbveterinariaContext()
     {
     }
 
-    public DbAc5136DbveterinariaContext(DbContextOptions<DbAc5136DbveterinariaContext> options)
+    public DbAc5132DbveterinariaContext(DbContextOptions<DbAc5132DbveterinariaContext> options)
         : base(options)
     {
     }
@@ -47,7 +47,7 @@ public partial class DbAc5136DbveterinariaContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("server=SQL1002.site4now.net; database=db_ac5136_dbveterinaria; uid=db_ac5136_dbveterinaria_admin; pwd=13ruseli@**uni");
+        => optionsBuilder.UseSqlServer("server=SQL5106.site4now.net; database=db_ac5132_dbveterinaria; uid=db_ac5132_dbveterinaria_admin; pwd=d3d3m0n_");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
